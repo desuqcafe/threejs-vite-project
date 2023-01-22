@@ -53,13 +53,13 @@ export default class Room{
                     child.material = new THREE.MeshBasicMaterial({
                         map: this.resources.items.screen,      // screen is name in assets
                     });
-                }
+                } 
               });
           });
 
           this.scene.add(this.actualRoom);
           // this.actualRoom.scale.set( 0.1, 0.1, 0.1 );
-          // this.actualRoom.rotation.y = MATH.PI;         (correct axes if needed
+          //this.actualRoom.rotation.y = MATH.PI;      //   (correct axes if needed
     }
 
     resize() {

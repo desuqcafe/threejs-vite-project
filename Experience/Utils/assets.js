@@ -7,6 +7,6 @@ export default [
     {
         name: "screen",
         type: "videoTexture",
-        path: "/textures/JunghyunCursiveName.mkv"
+        path: "/textures/JunghyunCursiveName.mp4"
     }
 ]
